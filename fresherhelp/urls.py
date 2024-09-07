@@ -21,7 +21,7 @@ from fresherhelp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.homePage),
-    path('shop-listing/',views.about_us),
-    path('shop-detail/',views.shop_list)
+    path('shop-listing.html/',views.about_us),
+    path('shop-detail.html/',views.shop_list)
 ]
  
